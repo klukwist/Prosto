@@ -21,6 +21,7 @@ class MainFragment : Fragment() {
     }
 
     private lateinit var viewModel: MainViewModel
+
     private val adapter =
         object : ProstoAdapter<ItemPersonBinding, Person>() {
             override val viewModel = PersonItemViewModel()
